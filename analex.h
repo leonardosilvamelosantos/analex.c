@@ -41,7 +41,8 @@ coluna = 1;
       
         while(isdigit(ch)){
           tokenval = tokenval * 10 + ch -'0';
-          
-    return NUM;
+          coluna++;
+          ch=getchar();
+    
   }
 }
